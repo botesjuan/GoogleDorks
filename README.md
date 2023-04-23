@@ -4,8 +4,8 @@
 
 ## Sensitive Information Searching
 
->Searching for sensitive data files containing information containing the target.abc domain in url for specified site.  
->Below examples are for Amazon S3, jfrog, pastebin, dropbox, azure, etc.  
+>Searching for sensitive data files containing information containing the `target.abc` domain in the url for specified site.  
+>Below sample search queries are for Amazon S3, jfrog, pastebin, dropbox, azure, etc.   
 
 ```
 site:pastebin.com "target.abc"
@@ -44,7 +44,7 @@ site:firebaseio.com "target.abc"
 ```
 
 ```
-site:jfrog.io "example"
+site:jfrog.io "target.abc"
 ```
 
 ```
