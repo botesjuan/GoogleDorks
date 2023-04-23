@@ -40,7 +40,7 @@ site:digitaloceanspaces.com "target.abc"
 ```
 
 ```
-site:firebaseio.com "example"
+site:firebaseio.com "target.abc"
 ```
 
 ```
