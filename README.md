@@ -4,8 +4,12 @@
 
 ## Sensitive Information Searching
 
->Searching for sensitive data files containing information containing the `target.abc` domain in the url for specified site.  
+>Searching for sensitive data, or files containing information containing the `target` domain with following sample search syntax.  
 >Below sample search queries are for Amazon S3, jfrog, pastebin, dropbox, azure, etc.   
+
+```
+site:pastebin.com *@gmail.com* intext:spotify intext:premium
+```
 
 ```
 site:pastebin.com "target.abc"
